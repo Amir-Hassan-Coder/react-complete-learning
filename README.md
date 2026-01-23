@@ -1,16 +1,78 @@
-# React + Vite
+Complete React JS Learning Repository
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a single, well-structured React application where all major React JS topics are implemented inside one project. Each topic has its own folder inside src/ and is imported into App.jsx for learning and practice purposes.
 
-Currently, two official plugins are available:
+The goal of this project is to help beginners and intermediate learners understand React from basics to advanced in a clean, organized, and practical way.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📌 Topics Covered (So Far)
 
-## React Compiler
+✔ React Components (Functional Components) ✔ JSX Basics ✔ Conditional Rendering ✔ Props ✔ State (useState) ✔ Side Effects (useEffect) ✔ Working with Arrays ✔ Working with Objects ✔ Styling in React (3 Types) ✔ Form Handling (Controlled Forms) ✔ Basic Todo App (CRUD) ✔ React Router DOM (Multiple Pages)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠 More topics are currently in progress and will be added step by step.
 
-## Expanding the ESLint configuration
+📁 Project Folder Structure
+react-complete-learning/
+│
+├── src/
+│   ├── components/
+│   ├── conditional-rendering/
+│   ├── props/
+│   ├── state/
+│   ├── useEffect/
+│   ├── arrays/
+│   ├── objects/
+│   ├── styles/
+│   ├── forms/
+│   ├── todo-app/
+│   ├── router/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── public/
+├── package.json
+├── vite.config.js / react config
+└── README.md
+🧠 Why This Project?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📘 Learn all React topics in one place
+
+🗂 Clean and beginner-friendly folder structure
+
+🧪 Practical examples instead of theory only
+
+🔁 Easy to revise React concepts
+
+💼 Helpful for interviews & portfolio
+
+▶ How to Run This Project
+# Install dependencies
+npm install
+
+
+# Start development server
+npm run dev
+🔄 GitHub Status
+
+🚧 Project Status: In Progress
+✨ New React topics will be added regularly.
+
+📌 Future Topics (Planned)
+
+Context API
+
+Custom Hooks
+
+useRef
+
+useReducer
+
+API Integration (Axios / Fetch)
+
+Authentication Basics
+
+Performance Optimization
+
+👤 Author
+
+Amir Khan
+Frontend Developer | React Learner 🚀

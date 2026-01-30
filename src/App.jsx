@@ -6,6 +6,7 @@ import MainForm from './Froms/MainForm'
 import MainTodo from './Todo-App/MainTodo'
 import MainUseEffect from './UseEffect-Hook-React-Js/MainUseEffect'
 import MainRouter from './React-Router-Dom/MainRouter'
+import MainDrilling from './PropsDrilling/MainDrilling'
 
 const App = () => {
   
@@ -17,7 +18,8 @@ const App = () => {
  {/* <MainForm/> */}
  {/* <MainTodo/> */}
  {/* <MainUseEffect/> */}
- <MainRouter/>
+ {/* <MainRouter/> */}
+ <MainDrilling/>
  </>
 
   )

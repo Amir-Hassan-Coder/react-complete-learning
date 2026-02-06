@@ -7,8 +7,11 @@ import MainTodo from './Todo-App/MainTodo'
 import MainUseEffect from './UseEffect-Hook-React-Js/MainUseEffect'
 import MainRouter from './React-Router-Dom/MainRouter'
 import MainDrilling from './PropsDrilling/MainDrilling'
-
-const App = () => {
+import MainParent from './UseContaxt-Hook/MainParent'
+import { createContext } from 'react'
+export const UserContext = createContext();
+  const App = () => {
+  const name = "Amir khan"; 
   
   return (
  <>
@@ -19,7 +22,10 @@ const App = () => {
  {/* <MainTodo/> */}
  {/* <MainUseEffect/> */}
  {/* <MainRouter/> */}
- <MainDrilling/>
+ {/* <MainDrilling/> */}
+ <UserContext.Provider value = {name}>
+ <MainParent/>
+ </UserContext.Provider>
  </>
 
   )
